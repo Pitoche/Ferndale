@@ -1,0 +1,34 @@
+Found 13 known vulnerabilities in 9 packages
+Name         Version    ID                  Fix Versions
+------------ ---------- ------------------- -------------
+certifi      2023.11.17 GHSA-248v-346w-9cwc 2024.7.4
+configobj    5.0.8      GHSA-c33w-24p9-8m24 5.0.9
+cryptography 41.0.7     GHSA-3ww4-gg4f-jr7f 42.0.0
+cryptography 41.0.7     GHSA-9v9h-cgj8-h64p 42.0.2
+cryptography 41.0.7     GHSA-6vqw-3v5j-54x4 42.0.4
+cryptography 41.0.7     GHSA-h4gh-qq45-vh27 43.0.1
+gitpython    3.1.37     PYSEC-2024-4        3.1.41
+idna         3.6        PYSEC-2024-60       3.7
+pillow       10.2.0     GHSA-44wm-f244-xhp3 10.3.0
+requests     2.31.0     GHSA-9wx4-h78v-vm56 2.32.0
+urllib3      2.0.7      GHSA-34jh-p97f-mpxf 1.26.19,2.2.2
+yt-dlp       2024.4.9   GHSA-79w7-vh3h-8g4j 2024.7.1
+yt-dlp       2024.4.9   GHSA-3v33-3wmw-3785 2024.7.7
+Name                  Skip Reason
+--------------------- -------------------------------------------------------------------------------------
+apturl                Dependency not found on PyPI and could not be audited: apturl (0.5.2)
+brlapi                Dependency not found on PyPI and could not be audited: brlapi (0.8.5)
+command-not-found     Dependency not found on PyPI and could not be audited: command-not-found (0.3)
+cupshelpers           Dependency not found on PyPI and could not be audited: cupshelpers (1.0)
+defer                 Dependency not found on PyPI and could not be audited: defer (1.0.6)
+louis                 Dependency not found on PyPI and could not be audited: louis (3.29.0)
+mako                  Dependency not found on PyPI and could not be audited: mako (1.3.2.dev0)
+onboard               Dependency not found on PyPI and could not be audited: onboard (1.4.1)
+pam                   Dependency not found on PyPI and could not be audited: pam (0.4.2)
+pypng                 Dependency not found on PyPI and could not be audited: pypng (0.20231004.0)
+python-apt            Dependency not found on PyPI and could not be audited: python-apt (2.7.7+ubuntu3)
+python-debian         Dependency not found on PyPI and could not be audited: python-debian (0.1.49+ubuntu2)
+repolib               Dependency not found on PyPI and could not be audited: repolib (2.2.1)
+ubuntu-drivers-common Dependency not found on PyPI and could not be audited: ubuntu-drivers-common (0.0.0)
+ufw                   Dependency not found on PyPI and could not be audited: ufw (0.36.2)
+xkit                  Dependency not found on PyPI and could not be audited: xkit (0.0.0)
